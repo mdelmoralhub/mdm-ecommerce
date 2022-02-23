@@ -1,0 +1,13 @@
+.Home {
+    padding: 25px;
+    text-align: center;
+    background: rgb(1,41,1);
+    background: linear-gradient(
+        90deg,
+        rgb(1,41,1,1) 48%,
+        rgb(1,36,0,1) 100%,
+        rgb(1,31,0,1) 100%,
+        rgb(1,13,0,1) 100%,
+        rgb(0,0,0,1) 100%,
+    )
+}

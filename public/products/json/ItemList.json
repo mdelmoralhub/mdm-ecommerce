@@ -1,0 +1,38 @@
+[
+    {
+      "id": "1",
+      "category": "Electronica",
+      "title": "Laptop",
+      "description": "Computadora portatil",
+      "price": "100.00",
+      "pictureUrl": "https://picsum.photos/id/0/5616/3744",
+      "prodStock": 3
+    },
+    {
+        "id": "2",
+        "category": "Carniceria",
+        "title": "Cabrito",
+        "description": "Animal parecido a Bambi pero comestible.",
+        "price": "10000.00",
+        "pictureUrl": "https://picsum.photos/id/1003/1181/1772",
+        "prodStock": 12
+    },
+    {
+        "id": "3",
+        "category": "Biblioteca",
+        "title": "Libro",
+        "description": "Asesino de ignorancias segun su tamaño",
+        "price": "300.00",
+        "pictureUrl": "https://picsum.photos/id/1010/5184/3456",
+        "prodStock": 5
+    },
+    {
+        "id": "4",
+        "category": "Eventos",
+        "title": "Coche de Bodas",
+        "description": "Vehiculo parecio al feretro pero llevando gente feliz adentro.",
+        "price": "5000.00",
+        "pictureUrl": "https://picsum.photos/id/1013/4256/2832",
+        "prodStock": 9
+    }
+]

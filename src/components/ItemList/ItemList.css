@@ -1,0 +1,8 @@
+.ItemList-container {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 4px 6px;
+}

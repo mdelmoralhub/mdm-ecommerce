@@ -1,0 +1,182 @@
+[
+    {
+      "id": "1",
+      "category": "Electronica",
+      "title": "Laptop",
+      "description": "Computadora portatil",
+      "price": "100.00",
+      "pictureUrl": "https://picsum.photos/id/0/5616/3744",
+      "prodStock": 3
+    },
+    {
+        "id": "2",
+        "category": "Carniceria",
+        "title": "Cabrito",
+        "description": "Animal parecido a Bambi pero comestible.",
+        "price": "10000.00",
+        "pictureUrl": "https://picsum.photos/id/1003/1181/1772",
+        "prodStock": 12
+    },
+    {
+        "id": "3",
+        "category": "Biblioteca",
+        "title": "Libro",
+        "description": "Asesino de ignorancias segun su tamaño",
+        "price": "300.00",
+        "pictureUrl": "https://picsum.photos/id/1010/5184/3456",
+        "prodStock": 5
+    },
+    {
+        "id": "4",
+        "category": "Eventos",
+        "title": "Coche de Bodas",
+        "description": "Vehiculo parecio al feretro pero llevando gente feliz adentro.",
+        "price": "5000.00",
+        "pictureUrl": "https://picsum.photos/id/1013/4256/2832",
+        "prodStock": 9
+    },
+    {
+        "id": "5",
+        "category": "Electronica",
+        "title": "MousePad de Perro",
+        "description": "Mousepad que parece un Perro",
+        "price": "100.00",
+        "pictureUrl": "https://picsum.photos/id/1025/367/267",
+        "prodStock": 3
+      },
+      {
+          "id": "6",
+          "category": "Carniceria",
+          "title": "Pollo crecidito",
+          "description": "Pollo de alas y garras grandes. No confundir con Aguila",
+          "price": "10000.00",
+          "pictureUrl": "https://picsum.photos/id/1024/367/267",
+          "prodStock": 12
+      },
+      {
+          "id": "7",
+          "category": "Biblioteca",
+          "title": "Best Seller: La loca de Birdbox ataca de nuevo",
+          "description": "Una historia de amor tragica con una mina que se venda los ojos para matar gente.",
+          "price": "300.00",
+          "pictureUrl": "https://picsum.photos/id/1014/367/267",
+          "prodStock": 5
+      },
+      {
+          "id": "8",
+          "category": "Eventos",
+          "title": "Viaje a Islandia",
+          "description": "Alta escapada a ese pais perdido en medio de Europa",
+          "price": "5000.00",
+          "pictureUrl": "https://picsum.photos/id/1018/367/267",
+          "prodStock": 9
+      },
+      {
+        "id": "9",
+        "category": "Eventos",
+        "title": "Viaje al glaciar Perito Moreno",
+        "description": "Viaje con parada en el calafate para que le tire un par de cosas a cristina primero",
+        "price": "100.00",
+        "pictureUrl": "https://picsum.photos/id/1015/367/267",
+        "prodStock": 3
+      },
+      {
+          "id": "10",
+          "category": "Eventos",
+          "title": "Viaje a Alaska",
+          "description": "Disfrute de las Auroras boreales. Eso si, lleve abrigo, que refresca mucho a la noche.",
+          "price": "10000.00",
+          "pictureUrl": "https://picsum.photos/id/1022/367/267",
+          "prodStock": 12
+      },
+      {
+          "id": "11",
+          "category": "Eventos",
+          "title": "Viaje a Tafi del Valle",
+          "description": "La idea es ir cuando esta nublado, porque es mas barato.",
+          "price": "300.00",
+          "pictureUrl": "https://picsum.photos/id/1021/367/267",
+          "prodStock": 5
+      },
+      {
+          "id": "12",
+          "category": "Eventos",
+          "title": "Viaje a las Islas Galapagos",
+          "description": "No hay un alma, pero las playas son bonitas",
+          "price": "5000.00",
+          "pictureUrl": "https://picsum.photos/id/1019/367/267",
+          "prodStock": 9
+      },
+      {
+        "id": "13",
+        "category": "Carniceria",
+        "title": "Tic-Tacs de Lomo",
+        "description": "Con estas porciones, si no adelgazas sos un loser",
+        "price": "100.00",
+        "pictureUrl": "https://picsum.photos/id/102/367/267",
+        "prodStock": 3
+      },
+      {
+          "id": "14",
+          "category": "Carniceria",
+          "title": "Oso pequeño",
+          "description": "La carne es rica, y con la piel te haces un tapado re chic.",
+          "price": "10000.00",
+          "pictureUrl": "https://picsum.photos/id/1020/367/267",
+          "prodStock": 12
+      },
+      {
+          "id": "15",
+          "category": "Eventos",
+          "title": "5 noches en la Hosteria de Tafi Viejo",
+          "description": "Una hermosa escapada para disfrutar del verde y el mountain bike",
+          "price": "300.00",
+          "pictureUrl": "https://picsum.photos/id/1023/367/267",
+          "prodStock": 5
+      },
+      {
+          "id": "16",
+          "category": "Eventos",
+          "title": "3 noches en el Cadillal + Paseo en canoa",
+          "description": "Oportunidad genial para relajarse y perderse en medio del dique",
+          "price": "5000.00",
+          "pictureUrl": "https://picsum.photos/id/1011/367/267",
+          "prodStock": 9
+      },
+      {
+        "id": "17",
+        "category": "Biblioteca",
+        "title": "Ayuda Memoria para Olvidadizos",
+        "description": "Si no se acuerda que libro comprar, compre este. Seguro lo ayudará",
+        "price": "100.00",
+        "pictureUrl": "https://picsum.photos/id/1005/367/267",
+        "prodStock": 3
+      },
+      {
+          "id": "18",
+          "category": "Eventos",
+          "title": "Visita al ingenio San Juan",
+          "description": "Para que vea lo viejo que esta el edificio que aun no demolieron",
+          "price": "10000.00",
+          "pictureUrl": "https://picsum.photos/id/101/367/267",
+          "prodStock": 12
+      },
+      {
+          "id": "19",
+          "category": "Eventos",
+          "title": "Viaje a Las Grutas",
+          "description": "Siempre es hermoso volver a visitar este lugar",
+          "price": "300.00",
+          "pictureUrl": "https://picsum.photos/id/1001/367/267",
+          "prodStock": 5
+      },
+      {
+          "id": "20",
+          "category": "Eventos",
+          "title": "Viaje a Purmamarca",
+          "description": "Visite el cerro de los 7 colores y vea que en efecto son mas lindos que nuestros cerros.",
+          "price": "5000.00",
+          "pictureUrl": "https://picsum.photos/id/1016/367/267",
+          "prodStock": 9
+      }
+]
