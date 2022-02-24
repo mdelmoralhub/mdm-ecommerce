@@ -17,20 +17,7 @@ const ItemList = ({items}) => {
         <div>
             { prodList }
         </div>
-    )
+    );
 };
 
-export default ItemList
-
-
-/*
-<li key={item.id} className="list-group-item">
-            <Item item={item}>
-              <Link to={`/detail/${item.id}`}>
-                <ItemDetailContainer itemSelected={item.id} />
-              </Link>
-            </Item>
-        </li>
-
-<ul className="list-group">{ prodList }</ul>
-*/
+export default ItemList;

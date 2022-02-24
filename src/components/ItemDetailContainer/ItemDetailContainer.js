@@ -7,7 +7,6 @@ const ItemDetailContainer = () => {
     const[itemDetail, setItemDetail] = useState({});
     let {itemDetailId} = useParams();
     useEffect(() => {
-      //const detailData = axios("http://localhost:3000/products/json/Itemlist.json").then((response) => response.data);
       const detailData = axios("http://localhost:3000/products/json/ItemlistLarge.json").then((response) => response.data);
       detailData.then((dataOk) => {
         const detailDataOK = dataOk.find(x=>x.id === itemDetailId);

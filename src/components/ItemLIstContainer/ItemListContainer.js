@@ -7,7 +7,6 @@ const ItemListContainer = () => {
     const[categoryGroup, setCategoryGroup] = useState(null);
     const {categoryId} = useParams();
     useEffect(() => {
-        //const items = axios("http://localhost:3000/products/json/Itemlist.json").then((response) => response.data);
         const items = axios("http://localhost:3000/products/json/ItemlistLarge.json").then((response) => response.data);
         items.then((dataOk) => {
             setTimeout(() => {
