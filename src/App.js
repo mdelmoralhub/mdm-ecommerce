@@ -6,6 +6,7 @@ import NavBar from './components/Navigation/NavBar';
 import Home from "./views/Home/Home";
 import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
 import ItemListContainer from './components/ItemLIstContainer/ItemListContainer';
+import CompraFinalContainer from './components/CompraFinalContainer/CompraFinalContainer';
 
 class App extends Component {
   render(){
@@ -22,6 +23,9 @@ class App extends Component {
               </Route>
               <Route path="/detail/:itemDetailId">
                 <ItemDetailContainer></ItemDetailContainer>
+              </Route>
+              <Route path="/cart">
+                <CompraFinalContainer></CompraFinalContainer>
               </Route> 
             </Switch>
           </div>

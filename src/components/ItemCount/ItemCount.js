@@ -1,11 +1,30 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { Button } from 'semantic-ui-react';
 
-//Aqui se utilizaron a proposito los viejos componentes de tipo class de react en lugar de los componentes
-//de tipo funcion, solo con fines orientados al aprendizaje. En caso de implementacion real, este componente
-//sera correctamente refactoreado para utilizar componentes de tipo funcion.
+const ItemCount = ({item, onAdd}) => {
+    const [counter, setCounter] = useState(0);
+    const handleIncCounter = () => {
+        if(counter < item.prodStock && item.prodStock > 0){
+            return setCounter(counter + 1);
+        }  
+    };
+    const handleDecCounter = () => {
+        if(counter > 0) return setCounter(counter - 1);
+    };
+    const handleOnAdd = () => {
+        console.log('ejecutando onAdd');
+        return onAdd(counter);
+    }    
+    return(
+        <div>
+            <Button onClick={handleDecCounter}>-</Button>  {counter}  <Button onClick={handleIncCounter}>+</Button>
+            <div className="primary"><Button onClick={handleOnAdd}> Agregar al Carrito </Button></div>
+            <p>Stock: {item.prodStock} unidades</p>
+        </div>
+    );
+};
 
-class ItemCount extends React.Component {
+/*class ItemCount extends React.Component {
     constructor(props) {
       super(props);
       this.state = {
@@ -37,6 +56,6 @@ class ItemCount extends React.Component {
             </div>
         );
     }
-}
+}*/
 
 export default ItemCount;
