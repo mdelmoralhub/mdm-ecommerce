@@ -13,11 +13,12 @@ const ItemCount = ({item, onAdd}) => {
     };
     const handleOnAdd = () => {
         console.log('ejecutando onAdd');
-        return onAdd(counter);
+        onAdd(counter);
+        return setCounter(0);
     }    
     return(
         <div>
-            <Button onClick={handleDecCounter}>-</Button>  {counter}  <Button onClick={handleIncCounter}>+</Button>
+            <Button onClick={handleDecCounter}>-</Button>  {counter ? counter : null}  <Button onClick={handleIncCounter}>+</Button>
             <div className="primary"><Button onClick={handleOnAdd}> Agregar al Carrito </Button></div>
             <p>Stock: {item.prodStock} unidades</p>
         </div>

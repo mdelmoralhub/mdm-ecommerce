@@ -6,15 +6,17 @@ import { Button } from 'semantic-ui-react';
 import {Link} from 'react-router-dom';
 
 const Item = ({itemDetail}) => {
-  const [cart, setCart] = useState(null);
+  const [cart, setCart] = useState({});
   const onAdd = (quantityToAdd) => {
+    const cartUpdated = {item: itemDetail, quantity: +quantityToAdd};
     if(quantityToAdd > 0 && itemDetail.prodStock >= quantityToAdd) {
       itemDetail.prodStock = itemDetail.prodStock - quantityToAdd;
         alert(`Se han agregado ${quantityToAdd} productos al carrito`);
     }
-    return setCart(cart + quantityToAdd);
+    return setCart(cartUpdated);
   };
   const terminarCompra = () => {
+    console.log('itemcomprado: ', cart);
     console.log('Button clicked! Yendo a la ventana de terminar compra...');
   }
   return (
@@ -25,7 +27,7 @@ const Item = ({itemDetail}) => {
       <img src={itemDetail.pictureUrl} style={{ height: '500px', width: 'auto' }} alt={itemDetail.title}></img>
       <p>Stock: {itemDetail.prodStock} unidades</p>
       <ItemCount item={itemDetail} onAdd={onAdd}></ItemCount>
-      {cart ? <Link to={'/cart'}><Button onClick={terminarCompra}>Terminar la compra</Button></Link> : null}
+      {cart ? <Link to={'/cart'}><Button onClick={terminarCompra}>Comprar</Button></Link> : null}
     </div>
   );
 };
